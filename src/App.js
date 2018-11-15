@@ -1,6 +1,7 @@
 import React from "react";
 
-import "./App.scss";
+// Global styling
+import "./global-styles";
 
 const App = () => <h1>Hello World</h1>;
 

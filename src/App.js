@@ -1,8 +1,13 @@
-import React from "react";
-
+import React from 'react';
 // Global styling
-import "./global-styles";
+import './global-styles';
 
-const App = () => <h1>Hello World</h1>;
+import DrumContainer from './containers/DrumsContainer';
+
+const sounds = require('../src/assets/sounds/*.wav');
+
+console.log(sounds);
+
+const App = () => <DrumContainer sounds={sounds} />;
 
 export default App;

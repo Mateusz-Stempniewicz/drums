@@ -1,7 +1,9 @@
 {
   "extends": ["airbnb-base", "prettier", "plugin:react/recommended"],
   "rules": {
-    "react/display-name": [{ "ignoreTranspilerName": true }]
+    "react/display-name": [{ "ignoreTranspilerName": true }],
+    "class-methods-use-this": 1,
+    "import/no-unresolved": 1
   },
   "globals": {
     "navigator": true,

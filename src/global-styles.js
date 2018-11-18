@@ -1,6 +1,6 @@
-import { injectGlobal } from "emotion";
+import { injectGlobal } from 'emotion';
 
-import backgoundImage from "../assets/images/drummer.jpg";
+import backgoundImage from './assets/images/drummer.jpg';
 
 export default injectGlobal`
   body {

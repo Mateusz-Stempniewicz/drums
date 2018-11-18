@@ -13,5 +13,6 @@ export default injectGlobal`
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
   }
 `;

@@ -8,7 +8,7 @@ import Drum from '../../components/Drum';
 
 const prepareDrums = soundMap => {
   const soundList = [];
-  Object.keys(soundMap).forEach((key) => {
+  Object.keys(soundMap).forEach(key => {
     const sound = soundMap[key];
     soundList.push(
       <Drum

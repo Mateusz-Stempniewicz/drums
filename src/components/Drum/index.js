@@ -48,13 +48,17 @@ const Drum = ({ letter, sound, soundName }) => {
     document.getElementById(soundName).classList.add('playing');
   };
 
+  const abc = () => {
+    console.log('asd');
+  };
+
   const onMouseUpHandler = () => {
     document.getElementById(soundName).classList.remove('playing');
   };
 
   return (
     <DrumItem id={soundName} onMouseUp={onMouseUpHandler} onMouseDown={onMouseDownHandler}>
-      <DrumLetter>{letter}</DrumLetter>
+      <DrumLetter onClick={abc}>{letter}</DrumLetter>
       <DrumName>{soundName}</DrumName>
     </DrumItem>
   );
